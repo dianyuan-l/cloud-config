@@ -1,21 +1,4 @@
-spring:
-  application:
-    name: cloud-config-dev
-  main:
-    allow-bean-definition-overriding: true
-  cloud:
-    server:
-      git:
-        uri: https://github.com/dianyuan-l/cloud-config.git #配置文件所在仓库
-        username: 805327836@qq.com
-        password: ldy13872241096
-        default-label: master #配置文件分支
-        search-paths: config  #配置文件所在根目录
-
-server:
-  port: 1001
-  servlet:
-    context-path: /config
-
+app:
+  name: cloud-config-dev
 
 
